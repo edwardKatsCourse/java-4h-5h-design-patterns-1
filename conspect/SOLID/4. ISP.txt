@@ -1,0 +1,33 @@
+4. Interface Segregation Principle
+
+Разделяй и властвуй
+Много целевых классов лучше, чем ОДИН ЖИРНЫЙ, с методами "на все случаи"
+
+
+abstract class SaveEntity extends PersonUtils {
+
+	abstract void save(entity)
+	abstract void findOne()
+	abstract void findAll()
+	
+	void printLibrary()
+	
+}
+abstract class PersonUtils {
+	static Person convert()
+	double calculateSalary(int a, double counter)
+}
+-----------------------------
+class Person {
+	Long id;
+	String name;
+	boolean isAccountExpired;
+	LocalDateTime createdOn;
+}
+
+class PersonSession {
+	private String sessionId;
+	private boolean isExpired;
+	private LocalDateTime createdOn;
+	private LocalDateTime updatedOn;
+}

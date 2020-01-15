@@ -1,0 +1,10 @@
+OOP
+SOLID
+
+Creational
+-----------
+Structural
+Behavioral
+-----------
+Multithreading
+Anti-patterns

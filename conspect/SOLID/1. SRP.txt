@@ -1,0 +1,25 @@
+SOLID
+
+1. Single Responsibility Principle (SRP)
+Каждый "юнит" (кусок) кода отвечает за одно и только одно действие
+
+@Entity
+class Person {
+	//database connection
+	//converters
+	//utils (string utils, cut, substring, toUpperCase)
+	//calculation
+}
+
+public static Person generate() {
+	//НЕ ПРАВИЛЬНО
+	//Чтение\запись из данного метода в файл
+}
+
+Последствия:
+методы, на 700+ строк кода
+трудно отследить: что именно там происходит
+
+метод: 20 строк
+класс: 150 строк
+

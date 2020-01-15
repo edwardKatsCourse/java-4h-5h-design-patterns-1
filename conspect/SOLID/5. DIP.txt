@@ -1,0 +1,21 @@
+5. Dependency Inversion Principle
+
+Использовать абстракции, вместо конкретных классов
+
+Правильно
+List list = new ArrayList();
+
+Не правильно
+ArrayList list = new ArrayList();
+LinkedList list = new LinkedList();
+
+public void saveList(List list) //LinkedList
+
+Когда ждать проблему?
+- когда нужно будет добавить поддержку новой библиотеки,
+где листы работают на 70% быстрее
+
+Когда перебор?
+Использовать Iterable вместо Collection или List/Set
+
+

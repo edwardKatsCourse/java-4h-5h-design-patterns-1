@@ -1,0 +1,18 @@
+Gang of Four - 4 автора
+GoF
+
+"Design Patterns" - 1995
+C++
+
+23 design patters
+
+2 - 10 classes
+
+Creation - как создавать сложные классы/группы классов
+Structural - структура проекта/модуля
+
+Отчёт: месяц, квартал, полгода, года
+Формат: pdf, excel, docx, csv, JSON
+
+Behavioral
+Взаимодействие между объектами

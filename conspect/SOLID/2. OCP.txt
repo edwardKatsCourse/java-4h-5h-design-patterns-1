@@ -1,0 +1,24 @@
+2. Open-Close Principle
+
+Код должен быть открытым для добавления и закрытым для модификации
+
+
+3 
+3.1
+3.2
+
+
+C# 	Java
+путь
+запуск
+критерий: пройдено/провалено
+
+abstract class TestRunner
+class JavaTestRunner extends TestRunner
+- private boolean hasJVM()
+
+class CSharpTestRunner extends TestRunner
+class PythonTestRunner
+
+private
+protected

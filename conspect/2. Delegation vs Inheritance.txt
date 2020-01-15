@@ -1,0 +1,25 @@
+делегирование
+
+class ConvertorUtils {
+	PersonDto -> PersonEntity
+	PersonEntity -> PersonDto
+}
+
+class Person {
+
+	private static ConvertorUtils convertorUtils;
+
+	//делегирование (композиция) - что происходит
+	//class member - как называется
+	private Address address;
+	
+}
+
+class Address {} 
+
+наследование
+Person extends Database, Connection, PersonDto, MongoDatabase
+Person implements Database, Connection, PersonDto, MongoDatabase
+
+
+

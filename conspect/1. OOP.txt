@@ -1,0 +1,30 @@
+OOP
+
+наследование
+1. наследование подтипов (extends, implements)
+2. наследование параметров 
+- ковариантность
+
+Object [] objects = new String [];
+
+- интравариантность
+String [] = new Object [] 
+
+- инвариантность 
+String [] strings = new String []
+Object [] objects = new Objects [] 
+
+class A {
+
+	private String name;
+	
+	//1. private скрыт - значит есть инкапсуляция
+	//2. А в чем, собственно, он скрыт?
+	public String getName() {
+		return this.name;
+	}
+	
+	public void setName(String name) {
+		this.name = name;
+	}
+}

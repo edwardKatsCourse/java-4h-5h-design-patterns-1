@@ -1,0 +1,25 @@
+3. Liskov Substitution Principle
+
+
+			   AbstractClass
+			   - save: String
+SQLSave							MongoSave
+- save: Integer					- save: StringBuilder
+
+sqlSave.save(entity)
+mongoSave.save(entity)
+
+List list = new LinkedList()
+
+
+class Parent {
+	void doAction()
+}
+
+class Child extends Parent {
+	void doAction() {
+		....
+		throws new RuntimeException();
+	}
+}
+
